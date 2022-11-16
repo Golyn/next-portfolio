@@ -1,0 +1,19 @@
+import Footer from './Footer';
+import Navbar from './Navbar';
+import { UserContext } from '../pages/_app';
+import { useContext } from 'react';
+const Layout = ({ children }) => {
+  // const context = useContext(UserContext); or
+  const { darkMode, setDarkMode } = useContext(UserContext); //destructured
+
+  return (
+    <div>
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />{' '}
+      {/* ie. context.darkMode and context.setDarkMode*/}
+      {children}
+      <Footer />
+    </div>
+  );
+};
+
+export default Layout;
