@@ -22,11 +22,12 @@ const Blog = () => {
             target="_blank"
           >
             <Image
+              src={backend}
+              alt="backend image file"
               className="rounded-lg object-cover"
               width={'100%'}
               height={'100%'}
               layout="responsive"
-              src={backend}
             />
             <h1 className="font-bold">How to Become a backend Developer</h1>
             <p>
