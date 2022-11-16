@@ -1,8 +1,8 @@
 import code from '../public/code.png';
 // import design from '../public/design.png';
-import consulting from '../public/consulting.png';
-import designing from '../public/designing.png';
-import designs from '../public/designs.png';
+// import consulting from '../public/consulting.png';
+// import designing from '../public/designing.png';
+// import designs from '../public/designs.png';
 import des from '../public/des.png';
 import codes from '../public/codes.png';
 import bus from '../public/bus.png';
@@ -35,8 +35,8 @@ const Services = () => {
               src={des}
               width={100}
               height={100}
-              // style={{ margin: '0px auto' }}
               className="mx-auto"
+              alt="image file"
             />
             <h3 className="text-lg font-medium pt-8 pb-2  ">Web Design</h3>
             <p className="py-2">
@@ -50,7 +50,13 @@ const Services = () => {
             <p className="text-gray-800 py-1">Indesign</p>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-            <Image src={codes} width={100} height={100} className="mx-auto" />
+            <Image
+              src={codes}
+              width={100}
+              height={100}
+              className="mx-auto "
+              alt="image file"
+            />
             <h3 className="text-lg font-medium pt-8 pb-2 ">Development</h3>
             <p className="py-2">
               Do you have an idea for your next great website? Let's make it a
@@ -64,7 +70,13 @@ const Services = () => {
             <p className="text-gray-800 py-1">C++</p>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-            <Image src={bus} width={100} height={100} className="mx-auto" />
+            <Image
+              src={bus}
+              alt="ima"
+              width={100}
+              height={100}
+              className="mx-auto"
+            />
             <h3 className="text-lg font-medium pt-8 pb-2 ">Online Presence</h3>
             <p className="py-2">
               Are you interested in feedback for your current project? I can

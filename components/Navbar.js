@@ -25,11 +25,9 @@ const Navbar = () => {
             <li className="px-3 py-2">Services</li>
           </Link>
           <Link href="/blog">
-            {' '}
             <li className="px-3 py-2">Blog</li>{' '}
           </Link>
           <Link href="/contact">
-            {' '}
             <li className="px-3 py-2">Contact</li>{' '}
           </Link>
         </ul>

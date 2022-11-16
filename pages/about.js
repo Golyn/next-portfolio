@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 import { BsGithub } from 'react-icons/bs';
-import deved from '../public/dev-ed-wave.png';
-import techguy from '../public/techguy.png';
+// import deved from '../public/dev-ed-wave.png';
+// import techguy from '../public/techguy.png';
 import codeboy from '../public/codeboy.png';
 
 import Image from 'next/image';
@@ -24,7 +24,6 @@ const About = () => {
           </p>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <Link href="https://twitter.com/debug260" target="_blank">
-              {' '}
               <AiFillTwitterCircle />
             </Link>
             <Link
@@ -34,7 +33,7 @@ const About = () => {
               <AiFillLinkedin />
             </Link>
             <Link href="https://github.com/Golyn" target="_blank">
-              <BsGithub />{' '}
+              <BsGithub />
             </Link>
           </div>
           <div className="text-center mt-10">
@@ -47,9 +46,7 @@ const About = () => {
             </Link>
           </div>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            {/* <Image src={deved} layout="fill" objectFit="cover" /> */}
-            <Image src={codeboy} />
-            {/* layout="fill" objectFit="cover"  */}
+            <Image src={codeboy} alt="profile avarta" />
           </div>
         </div>
       </section>

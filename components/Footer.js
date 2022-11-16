@@ -65,7 +65,7 @@ const Footer = () => {
           <BsGithub className="dark:text-teal-600" />{' '}
         </Link>
       </div>
-      <div class="w-full border-b border-teal-800"></div>
+      <div className="w-full border-b border-teal-800"></div>
       <div className="sub-footer ">
         <p> Copyright &copy; 2022 Seth Amankwah</p>
       </div>

@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import web1 from '../public/web1.png';
+// import web1 from '../public/web1.png';
 import web2 from '../public/web2.png';
-import web3 from '../public/web3.png';
+// import web3 from '../public/web3.png';
 // import web4 from '../public/web4.png';
 // import web5 from '../public/web5.png';
-import web6 from '../public/web6.png';
-import JStech from '../public/JStech.png';
+// import web6 from '../public/web6.png';
+// import JStech from '../public/JStech.png';
 import jsdocu2 from '../public/jsdocu2.png';
 
 import hire from '../public/hire.png';
@@ -38,30 +38,33 @@ const Portfolio = () => {
         <div className="basis-1/3 flex-1 ">
           <Link href="https://codepen.io/bronsted/pen/yLpywEx" target="_blank">
             <Image
+              src={jsdocu2}
+              alt="ima"
               className="rounded-lg object-cover"
               width={'100%'}
               height={'100%'}
               layout="responsive"
-              src={jsdocu2}
             />
           </Link>
         </div>
         <div className="basis-1/3 flex-1">
           <Image
             className="rounded-lg object-cover"
+            src={web2}
+            alt="imag"
             width={'100%'}
             height={'100%'}
             layout="responsive"
-            src={web2}
           />
         </div>
         <div className="basis-1/3 flex-1">
           <Image
             className="rounded-lg object-cover"
+            src={travello}
+            alt="image "
             width={'100%'}
             height={'100%'}
             layout="responsive"
-            src={travello}
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -71,24 +74,27 @@ const Portfolio = () => {
             height={'100%'}
             layout="responsive"
             src={hire}
+            alt="image file"
           />
         </div>
         <div className="basis-1/3 flex-1">
           <Image
             className="rounded-lg object-cover"
-            width={'100%'}
-            height={'100%'}
-            layout="responsive"
             src={bento}
+            width={'100%'}
+            height={'100%'}
+            layout="responsive"
+            alt="image file"
           />
         </div>
         <div className="basis-1/3 flex-1">
           <Image
             className="rounded-lg object-cover"
+            src={websit}
             width={'100%'}
             height={'100%'}
             layout="responsive"
-            src={websit}
+            alt="image file"
           />
         </div>
       </div>
