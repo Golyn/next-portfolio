@@ -1,8 +1,3 @@
-import code from '../public/code.png';
-// import design from '../public/design.png';
-// import consulting from '../public/consulting.png';
-// import designing from '../public/designing.png';
-// import designs from '../public/designs.png';
 import des from '../public/des.png';
 import codes from '../public/codes.png';
 import bus from '../public/bus.png';

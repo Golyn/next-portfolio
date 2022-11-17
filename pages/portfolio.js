@@ -1,18 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-// import web1 from '../public/web1.png';
-import web2 from '../public/web2.png';
-// import web3 from '../public/web3.png';
-// import web4 from '../public/web4.png';
-// import web5 from '../public/web5.png';
-// import web6 from '../public/web6.png';
-// import JStech from '../public/JStech.png';
 import jsdocu2 from '../public/jsdocu2.png';
-
 import hire from '../public/hire.png';
 import bento from '../public/Bento.png';
 import websit from '../public/Websit.png';
 import travello from '../public/travello.png';
+import quote from '../public/quote.png';
 
 const Portfolio = () => {
   return (
@@ -48,14 +41,19 @@ const Portfolio = () => {
           </Link>
         </div>
         <div className="basis-1/3 flex-1">
-          <Image
-            className="rounded-lg object-cover"
-            src={web2}
-            alt="imag"
-            width={'100%'}
-            height={'100%'}
-            layout="responsive"
-          />
+          <Link
+            href="https://seth-random-quote-machine.netlify.app/"
+            target="_blank"
+          >
+            <Image
+              className="rounded-lg object-cover"
+              src={quote}
+              alt="imag"
+              width={'100%'}
+              height={'100%'}
+              layout="responsive"
+            />
+          </Link>
         </div>
         <div className="basis-1/3 flex-1">
           <Image
