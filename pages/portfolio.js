@@ -6,6 +6,7 @@ import bento from '../public/Bento.png';
 import websit from '../public/Websit.png';
 import travello from '../public/travello.png';
 import quote from '../public/quote.png';
+import blog from '../public/blog.png';
 
 const Portfolio = () => {
   return (
@@ -14,7 +15,7 @@ const Portfolio = () => {
         <h3 className="text-3xl py-1 dark:text-white border-l-4 border-teal-500 pl-5 mb-6">
           Portofolio
         </h3>
-        <p className="text-base py-2 leading-8 text-gray-800 dark:text-gray-200">
+        <p className="text-xl  py-2 leading-8 text-gray-800 dark:text-gray-200">
           Since the beginning of my journey as a freelance designer and
           developer, I've done remote work for
           <span className="text-teal-500"> agencies </span>
@@ -22,16 +23,16 @@ const Portfolio = () => {
           and collaborated with talanted people to create digital products for
           both business and consumer use.
         </p>
-        <p className="text-base py-2 leading-8 text-gray-800 dark:text-gray-200">
+        <p className="text-xl  py-2 leading-8 text-gray-800 dark:text-gray-200">
           I offer from a wide range of services, including brand design,
           programming and teaching.
         </p>
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/3 flex-1 ">
-          <Link href="https://codepen.io/bronsted/pen/yLpywEx" target="_blank">
+          <Link href="https://seth-blog-post.netlify.app/" target="_blank">
             <Image
-              src={jsdocu2}
+              src={blog}
               alt="ima"
               className="rounded-lg object-cover"
               width={'100%'}
@@ -55,6 +56,19 @@ const Portfolio = () => {
             />
           </Link>
         </div>
+        <div className="basis-1/3 flex-1 ">
+          <Link href="https://codepen.io/bronsted/pen/yLpywEx" target="_blank">
+            <Image
+              src={jsdocu2}
+              alt="ima"
+              className="rounded-lg object-cover"
+              width={'100%'}
+              height={'100%'}
+              layout="responsive"
+            />
+          </Link>
+        </div>
+
         <div className="basis-1/3 flex-1">
           <Image
             className="rounded-lg object-cover"
@@ -79,6 +93,16 @@ const Portfolio = () => {
           <Image
             className="rounded-lg object-cover"
             src={bento}
+            width={'100%'}
+            height={'100%'}
+            layout="responsive"
+            alt="image file"
+          />
+        </div>
+        <div className="basis-1/3 flex-1">
+          <Image
+            className="rounded-lg object-cover"
+            src={hire}
             width={'100%'}
             height={'100%'}
             layout="responsive"
