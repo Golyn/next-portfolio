@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   const { darkMode, setDarkMode } = useContext(UserContext); //destructured
 
   return (
-    <div>
+    <div className="text-center mx-0 ">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />{' '}
       {/* ie. context.darkMode and context.setDarkMode*/}
       {children}
