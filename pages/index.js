@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import About from './about';
 import Services from './services';
 import Portfolio from './portfolio';
+import '../styles/Home.module.css';
 export default function Home() {
   const { darkMode, setDarkMode } = useContext(UserContext);
 
@@ -14,7 +15,7 @@ export default function Home() {
         <meta name="description" content="Personal Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="text-center mx-0">
+      <div>
         <main>
           <About />
           <Services />
