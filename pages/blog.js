@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 const Blog = () => {
   return (
-    <div className=" dark:text-white">
-      <h1 className="font-extrabold border-l-4 border-teal-500 pl-5 mb-6 py-1">
+    <div className=" dark:text-white py-10 my-10">
+      <h1 className="text-3xl border-l-4 border-teal-500 pl-5 mb-6 py-1">
         Blog Page
       </h1>
 

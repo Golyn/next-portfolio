@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Services = () => {
   return (
     <>
-      <section>
+      <section className="py-10 my-10">
         <div id="services">
           <h3 className="text-3xl dark:text-white border-l-4 border-teal-500 pl-5 mb-6 py-1">
             Services

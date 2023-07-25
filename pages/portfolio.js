@@ -10,7 +10,7 @@ import blog from '../public/blog.png';
 
 const Portfolio = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 my-10">
       <div id="portfolio">
         <h3 className="text-3xl py-1 dark:text-white border-l-4 border-teal-500 pl-5 mb-6">
           Portofolio

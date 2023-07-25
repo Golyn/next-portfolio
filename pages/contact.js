@@ -6,8 +6,8 @@ import { BsGithub } from 'react-icons/bs';
 
 const Contact = () => {
   return (
-    <div className="min-h-screen dark:text-white">
-      <h1 className="font-extrabold border-l-4 border-teal-500 pl-5 mb-6 py-1">
+    <div className="min-h-screen dark:text-white py-10 my-10">
+      <h1 className="text-3xl border-l-4 border-teal-500 pl-5 mb-6 py-1">
         Contact Me
       </h1>
       <p className="text-center mt-20 text-2xl">
