@@ -133,16 +133,16 @@ const Footer = () => {
         </span>
         <div className="justify-center flex mt-4 space-x-6 sm:justify-center sm:mt-0 text-2xl">
           <Link href="https://twitter.com/debug260" target="_blank">
-            <AiFillTwitterCircle className="text-gray-400 dark:text-teal-600" />
+            <AiFillTwitterCircle className="text-gray-600 dark:text-teal-600" />
           </Link>
           <Link
             href="https://www.linkedin.com/in/seth-a-amankwah-452700120/"
             target="_blank"
           >
-            <AiFillLinkedin className="text-gray-400 dark:text-teal-600" />
+            <AiFillLinkedin className="text-gray-600 dark:text-teal-600" />
           </Link>
           <Link href="https://github.com/Golyn" target="_blank">
-            <BsGithub className="text-gray-400 dark:text-teal-600" />{' '}
+            <BsGithub className="text-gray-600 dark:text-teal-600" />{' '}
           </Link>
         </div>
       </div>
