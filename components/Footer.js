@@ -102,19 +102,13 @@ const Footer = () => {
               {/* text-gray-600 dark:text-gray-400  */}
               <li className="mb-2">
                 <div className="flex justify-center items-center flex-wrap">
-                  <FaPhoneSquareAlt
-                    color="black"
-                    className="flex justify-center text-lg  dark:text-teal-600"
-                  />
+                  <FaPhoneSquareAlt className="flex justify-center text-lg  dark:text-teal-600" />
                   <p className="pl-2">+233548412778</p>
                 </div>
               </li>
               <li>
                 <div className="flex justify-center items-center flex-wrap">
-                  <HiEnvelope
-                    color="black"
-                    className="justify-center text-lg dark:text-teal-600"
-                  />
+                  <HiEnvelope className="justify-center text-lg dark:text-teal-600" />
                   <p className="pl-2 ">sethaappiah@gmail.com</p>
                 </div>
               </li>
