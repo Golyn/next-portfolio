@@ -19,7 +19,7 @@ const Footer = () => {
               {' '}
               <AiFillTwitterCircle
                 size="1.5rem"
-                className="text-gray-400 dark:text-teal-600"
+                className="text-gray-600 dark:text-teal-600"
               />
             </Link>
             <Link
@@ -28,13 +28,13 @@ const Footer = () => {
             >
               <AiFillLinkedin
                 size="1.5rem"
-                className="text-gray-400 dark:text-teal-600 "
+                className="text-gray-600 dark:text-teal-600 "
               />
             </Link>
             <Link href="https://github.com/Golyn" target="_blank">
               <BsGithub
                 size="1.5rem"
-                className="text-gray-400 dark:text-teal-600 "
+                className="text-gray-600 dark:text-teal-600 "
               />{' '}
             </Link>
           </div>
