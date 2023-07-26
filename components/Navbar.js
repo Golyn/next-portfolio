@@ -1,12 +1,10 @@
 import Link from 'next/link';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { UserContext } from '../pages/_app';
-import { BiMenu } from 'react-icons/bi';
-import { FaTimes } from 'react-icons/fa';
 import { useRouter } from 'next/router';
-import { Fragment, useState, useContext } from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import { useContext } from 'react';
+import { Disclosure, Menu } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
