@@ -22,7 +22,7 @@ const About = () => {
             Freelancer providing services for programming and design content
             needs. Let's get in touch!
           </p>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600  dark:text-teal-600">
             <Link href="https://twitter.com/debug260" target="_blank">
               <AiFillTwitterCircle />
             </Link>
@@ -39,7 +39,7 @@ const About = () => {
           <div className="text-center mt-10">
             <Link
               className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md"
-              href="https://drive.google.com/file/d/1-lxk6gMSi7ztdGS3BaI4CDPxLWpfQbxE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1J7wGuYoUjq3nDzv4Tqlm6HqSQPBAN-EP/view?usp=sharing"
               target="_blank"
             >
               Resume
